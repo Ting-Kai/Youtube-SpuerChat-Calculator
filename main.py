@@ -15,7 +15,7 @@ def get_exchange_rates():
 def extract_currency_and_amount(paid_string):
     paid_string = paid_string.strip()
     
-    match = re.match(r'([A-Z$¥]+)([\d,]+(?:\.\d+)?)', paid_string)
+    match = re.match(r'([A-Z$¥]+)\s*([\d,]+(?:\.\d+)?)', paid_string)
     
     if match:
         currency = match.group(1)
