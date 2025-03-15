@@ -5,4 +5,4 @@ This is a Python script that retrieves donation comments (SuperChat) from a spec
 ## Exchange Rate Source
 
 The script retrieves the current exchange rates from the following website:
-- [Taiwan Rter](https://tw.rter.info/capi.php)
+- [Taiwan Rter](https://tw.rter.info/howto_currencyapi.php)
